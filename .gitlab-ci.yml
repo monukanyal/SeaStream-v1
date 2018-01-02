@@ -1,0 +1,23 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  - npm install
+
+stages:
+  - test
+
+run_test:
+  stage: test
+  script:
+    - npm test
+
+# deploy_docker:
+#   stage: deploy
+#   script:
+#     - ./dockerfile
+#     - docker build -t lectus .
+#     - docker run -p 49160:3000 -d lectus

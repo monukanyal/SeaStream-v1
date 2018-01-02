@@ -1,0 +1,10 @@
+node_modules
+.idea
+npm-debug.log
+databases
+/lectus-api-master/obj/Debug
+/lectus-api-master/undefined
+/lectus-api-master/upload/userPhoto-1488374810076
+/lectus-api-master/upload/userPhoto-1488374982761-Yummy Bites2.doc
+/files
+/npm-debug.log.1358767290
